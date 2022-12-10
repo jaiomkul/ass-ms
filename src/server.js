@@ -14,5 +14,5 @@ app.listen(port, async () => {
     console.log(err);
   }
 
-  console.log("listening on port 5000", port);
+  console.log("listening on port", port);
 });

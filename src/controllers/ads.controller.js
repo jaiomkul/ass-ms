@@ -51,7 +51,7 @@ router.get("/:searchTerm", async (req, res) => {
   }
 });
 
-router.get("/all", async (req, res) => {
+router.get("/data/all", async (req, res) => {
   try {
     const ads = await Ads.aggregate([
       {
